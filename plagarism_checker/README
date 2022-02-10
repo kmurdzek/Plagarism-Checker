@@ -1,5 +1,4 @@
 Kacper Murdzek km1299
-Taranvir Singh ts903
 
 Preliminary Information Before Running the Program
 When identifying the flags for the program to use the -s flag should be used before inserting any files into the terminal. The reasoning for this is because if it is used after the filenames the files have already been enqueued and made ready for tokenizing. All other flags can be used anywhere in the input, the flags will be overwritten if the same flag is used twice, the value will always be the latest flag in the input. The JSD of each combination of files will be printed in order from greatest JSD to least JSD. If there is only one file input there will be nothing printed in the final output as there is no JSD to be calculated.
